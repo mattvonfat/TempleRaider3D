@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://wv78i2o6q12j"
+path="res://.godot/imported/middle_wall.obj-5ab15973340d9ca06aa17497d07efb60.mesh"
+
+[deps]
+
+files=["res://.godot/imported/middle_wall.obj-5ab15973340d9ca06aa17497d07efb60.mesh"]
+
+source_file="res://resources/meshes/middle_wall.obj"
+dest_files=["res://.godot/imported/middle_wall.obj-5ab15973340d9ca06aa17497d07efb60.mesh", "res://.godot/imported/middle_wall.obj-5ab15973340d9ca06aa17497d07efb60.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

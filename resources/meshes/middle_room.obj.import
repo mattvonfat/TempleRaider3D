@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cr64phbqju31l"
+path="res://.godot/imported/middle_room.obj-87616a8e7e6a3a2d5de0ff6c77d0da72.mesh"
+
+[deps]
+
+files=["res://.godot/imported/middle_room.obj-87616a8e7e6a3a2d5de0ff6c77d0da72.mesh"]
+
+source_file="res://resources/meshes/middle_room.obj"
+dest_files=["res://.godot/imported/middle_room.obj-87616a8e7e6a3a2d5de0ff6c77d0da72.mesh", "res://.godot/imported/middle_room.obj-87616a8e7e6a3a2d5de0ff6c77d0da72.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

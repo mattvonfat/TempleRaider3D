@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://cymcvj7a3e53k"]
+
+[ext_resource type="ArrayMesh" uid="uid://cr64phbqju31l" path="res://resources/meshes/middle_room.obj" id="1_5aalu"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tiu5y"]
+albedo_color = Color(0.894118, 0.509804, 0.243137, 1)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_8ahp7"]
+data = PackedVector3Array(-2.5, 0, 2.5, -2.5, -0.5, 2.5, -2.5, 0, -2.5, -2.5, 0, -2.5, -2.5, -0.5, 2.5, -2.5, -0.5, -2.5, -2.5, 0, -2.5, -2.5, -0.5, -2.5, 2.5, 0, -2.5, 2.5, 0, -2.5, -2.5, -0.5, -2.5, 2.5, -0.5, -2.5, 2.5, 0, -2.5, 2.5, -0.5, -2.5, 2.5, 0, 2.5, 2.5, 0, 2.5, 2.5, -0.5, -2.5, 2.5, -0.5, 2.5, 2.5, 0, 2.5, 2.5, -0.5, 2.5, -2.5, 0, 2.5, -2.5, 0, 2.5, 2.5, -0.5, 2.5, -2.5, -0.5, 2.5, 2.5, -0.5, -2.5, -2.5, -0.5, -2.5, 2.5, -0.5, 2.5, 2.5, -0.5, 2.5, -2.5, -0.5, -2.5, -2.5, -0.5, 2.5, -2.5, 0, -2.5, 2.5, 0, -2.5, -2.5, 0, 2.5, -2.5, 0, 2.5, 2.5, 0, -2.5, 2.5, 0, 2.5, -2.5, 5.5, 2.5, -2.5, 5, 2.5, -2.5, 5.5, -2.5, -2.5, 5.5, -2.5, -2.5, 5, 2.5, -2.5, 5, -2.5, -2.5, 5.5, -2.5, -2.5, 5, -2.5, 2.5, 5.5, -2.5, 2.5, 5.5, -2.5, -2.5, 5, -2.5, 2.5, 5, -2.5, 2.5, 5.5, -2.5, 2.5, 5, -2.5, 2.5, 5.5, 2.5, 2.5, 5.5, 2.5, 2.5, 5, -2.5, 2.5, 5, 2.5, 2.5, 5.5, 2.5, 2.5, 5, 2.5, -2.5, 5.5, 2.5, -2.5, 5.5, 2.5, 2.5, 5, 2.5, -2.5, 5, 2.5, 2.5, 5, -2.5, -2.5, 5, -2.5, 2.5, 5, 2.5, 2.5, 5, 2.5, -2.5, 5, -2.5, -2.5, 5, 2.5, -2.5, 5.5, -2.5, 2.5, 5.5, -2.5, -2.5, 5.5, 2.5, -2.5, 5.5, 2.5, 2.5, 5.5, -2.5, 2.5, 5.5, 2.5)
+
+[node name="MiddleRoom" type="StaticBody3D"]
+
+[node name="MiddleRoom" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_5aalu")
+surface_material_override/0 = SubResource("StandardMaterial3D_tiu5y")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("ConcavePolygonShape3D_8ahp7")
